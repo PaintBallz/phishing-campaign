@@ -1,20 +1,21 @@
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Courier New", Courier, monospace;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #eef2f7;
+    background-color: #0d1117; /* Dark background resembling a terminal */
+    color: #ffffffd8; /* Neon green text */
 }
 
 .container {
     text-align: center;
-    background: white;
+    background: #161b22; /* Slightly lighter dark background */
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgba(254, 253, 253, 0.414); /* Neon green glow */
     max-width: 600px;
     width: 100%;
     line-height: 1.6;
@@ -22,13 +23,14 @@ body {
 
 h1 {
     font-size: 2.5em;
-    color: #2c3e50;
+    color: #ffffffd8; /* Neon green */
     margin-bottom: 20px;
+    text-shadow: 0 0 8px rgba(73, 73, 73, 0.6);
 }
 
 p {
     font-size: 1.1em;
-    color: #34495e;
+    color: #ffffffd8; /* Slightly dimmer green */
     margin: 15px 0 25px;
 }
 
@@ -36,24 +38,26 @@ p {
     display: inline-block;
     padding: 12px 24px;
     font-size: 1em;
-    color: white;
-    background-color: #0056b3;
+    color: #0d1117; /* Dark text */
+    background-color: #ffffffd8; /* Bright green button */
     border: none;
     border-radius: 6px;
     cursor: pointer;
     text-decoration: none;
     transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
 }
 
 .button:hover {
-    background-color: #003f88;
-    transform: scale(1.05);
+    background-color: #ffffffd8; /* Slightly darker green */
+    transform: scale(1.1);
 }
 
 .hidden-message {
     display: none;
     margin-top: 25px;
-    color: #1e8449;
+    color: #ffffffd8; /* Neon green text */
     font-weight: bold;
     font-size: 1.2em;
+    text-shadow: 0 0 8px rgba(0, 255, 0, 0.6);
 }
