@@ -6,16 +6,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #0d1117; /* Dark background resembling a terminal */
-    color: #ffffffd8; /* Neon green text */
+    background-color: #0d1117; 
+    color: #ffffffd8; 
 }
 
 .container {
     text-align: center;
-    background: #161b22; /* Slightly lighter dark background */
+    background: #161b22; 
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 0 15px rgba(254, 253, 253, 0.414); /* Neon green glow */
+    box-shadow: 0 0 15px rgba(254, 253, 253, 0.414); 
     max-width: 600px;
     width: 100%;
     line-height: 1.6;
@@ -23,14 +23,14 @@ body {
 
 h1 {
     font-size: 2.5em;
-    color: #ffffffd8; /* Neon green */
+    color: #ffffffd8; 
     margin-bottom: 20px;
     text-shadow: 0 0 8px rgba(73, 73, 73, 0.6);
 }
 
 p {
     font-size: 1.1em;
-    color: #ffffffd8; /* Slightly dimmer green */
+    color: #ffffffd8; 
     margin: 15px 0 25px;
 }
 
@@ -38,8 +38,8 @@ p {
     display: inline-block;
     padding: 12px 24px;
     font-size: 1em;
-    color: #0d1117; /* Dark text */
-    background-color: #ffffffd8; /* Bright green button */
+    color: #0d1117; 
+    background-color: #ffffffd8; 
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -49,15 +49,15 @@ p {
 }
 
 .button:hover {
-    background-color: #ffffffd8; /* Slightly darker green */
+    background-color: #ffffffd8; 
     transform: scale(1.1);
 }
 
 .hidden-message {
     display: none;
     margin-top: 25px;
-    color: #ffffffd8; /* Neon green text */
+    color: #ffffffd8; 
     font-weight: bold;
     font-size: 1.2em;
-    text-shadow: 0 0 8px rgba(0, 255, 0, 0.6);
+    text-shadow: 0 0 8px rgba(173, 174, 173, 0.6);
 }
